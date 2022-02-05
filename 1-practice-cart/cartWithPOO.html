@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./index.html">Cart With Js Vanilla</a>
+      <a href="./cartWithPOO.html" class="active">Cart With POO</a>
+      <a href="./cartWithJquery.html">Cart With POO-Jquery</a>
+    </nav>
+  </header>
+  <div class="page-cart">
+    <div class="list-products">
+      <h3>List Products</h3>
+      <div id="products"></div>
+    </div>
+    <div class="list-cart">
+      <h3>Cart</h3>
+      <div id="cart"></div>
+    </div>
+  </div>
+  <div class="page-summary">
+    <div class="amount">
+      Total: <strong>$ <span id="total">0,00</span></strong>
+    </div>
+  </div>
+  <!-- variable with list products -->
+  <script src="js/products.js"></script>
+  <!-- Javascript vanilla and Class Cart -->
+  <script src="js/cartClass.js"></script>
+  <script src="js/withPOO.js"></script>
+</body>
+</html>

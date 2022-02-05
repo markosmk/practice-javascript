@@ -1,0 +1,17 @@
+/*.vscode
+/*node_modules
+*.env
+*.env.test
+*.env.production
+
+### macOS ###
+# General
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
